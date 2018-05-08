@@ -19,6 +19,9 @@ class User:
     def __eq__(self, other):
         return self.name == other.name
 
+    def __hash__(self):
+        return hash(self.name)
+
 class Auction:
     def __init__(self);
         pass
