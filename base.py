@@ -23,7 +23,7 @@ class User:
         return hash(self.name)
 
 class Auction:
-    def __init__(self);
+    def __init__(self):
         pass
     
     def client_bid(self, client, num_resources, unit_price):
@@ -34,4 +34,3 @@ class Auction:
 
     def do_auction(self):
         pass
-
